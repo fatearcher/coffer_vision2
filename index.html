@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CafeParis</title>
+    <link rel="shortcut icon" href="img/circle2.png" type="">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="top.css" />
+    <link rel="stylesheet" href="slick.css" />
+    <link rel="stylesheet" href="calendar.css" />
+  </head>
+
+
+  <body id="top" class="archive pc">
+
+       <div class="circle_2">
+          <div class="scrolltop" onclick="scrollToTop();">
+          </div>
+       </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var scroll = document.querySelector('.scrolltop');
+            scroll.classList.toggle("active", window.scrollY > 500)
+        })
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+    </script>
+    <header>
+      <div class="header-inner">
+        <div class="btn-nav font-en-sr">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>MENU</p>
+        </div>
+        <div class="btn-back white font-en-sr">
+          <a href="" title="お知らせ一覧へ"
+            >Back to home</a
+          >
+        </div>
+        <div class="inner">
+          <div class="logo">
+            <a href=""
+              ><img src="img/logo.png" alt=""
+            /></a>
+          </div>
+          <nav class="gnav">
+            <ul>
+              <li class="">
+                <a href="#sec-blog" title="お知らせ"
+                  >お知らせ</a
+                >
+              </li>
+              <li class="">
+                <a href="#top-inner" title="私たちのこと">私たちのこと</a>
+              </li>
+              <li>
+                <span class="btn-ac-nav">サービスのこと<i></i></span>
+                <div class="mnav">
+                  <ul>
+                    <li class="">
+                      <a
+                        href="#sec-category"
+                        >Daily Coffee</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#sec-category" title=""
+                        >Monthry Fresh</a
+                      >
+                    </li>
+                    <li class="">
+                      <a
+                        href="#sec-category"
+                        title=""
+                        >Original gift</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <span>おすすめメニュー</span>
+                <div class="mnav">
+                  <ul>
+                    <li class="">
+                      <a href="#sec-lineup" title=""
+                        >本日の一汁三菜セット</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#sec-lineup" title=""
+                        >旬野菜のせいろ蒸し膳</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#sec-lineup" title=""
+                        >チーズケーキ</a
+                      >
+                    </li>
+                    <li class="">
+                      <a href="#sec-lineup" title=""
+                        >ガトーショコラ</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="">
+                <a href="#btn-set" title="">店舗のこと</a>
+              </li>
+              <li class="">
+                <a href="#calendar" title="">カレンダー</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="sns">
+          <span class="font-en-sr">SNS</span>
+          <ul class="sns-list">
+            <li>
+              <a
+                href=""
+              >
+                <img
+                  src="img/ico-facebook.svg"
+                  alt="Facebook"
+                />
+                <img
+                  class="white"
+                  src="img/ico-facebook-white.svg"
+                  alt="Facebook"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+
+              >
+                <img
+                  src=""
+                  alt="Instagram"
+                />
+                <img
+                  class="white"
+                  src="img/ico-instagram-white.svg"
+                  alt="Instagram"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+              >
+                <img
+                  src=""
+                  alt="Twitter"
+                />
+                <img
+                  class="white"
+                  src="img/ico-twitter-white.svg"
+                  alt="Twitter"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div id="mainContents" class="topContents archive clearfix">
+      <div id="top-mask">
+        <div class="logo">
+          <img src="img/logo-black.png" alt="" />
+        </div>
+        
+      </div>
+      
+
+      <div id="visual">
+        <div class="slider slider-img">
+          <div class="inner" style="background-image: url(img/img7.jpg)"></div>
+          <div class="inner" style="background-image: url(img/img5.jpg)"></div>
+          <div class="inner" style="background-image: url(img/img7.jpg)"></div>
+        </div>
+        <div class="mask"></div>
+        <div class="modal-access modal-common">
+          <div class="modal-common-bg"></div>
+          <div class="modal-common-close">
+            <img
+              src="img/btn-close.svg"
+              alt="閉じる"
+            />
+          </div>
+          <div class="modal-common-inner">
+            <div class="modal-access-inner">
+              <section class="shop-detail">
+                <div class="shop-info">
+                  <h2>
+                    <strong class="font-en-sr">CafeParis</strong>
+                  </h2>
+                  <div class="p-block">
+                    <span class="txt-small">〒160-0023</span>
+                    <p>
+                      東京都新宿区西新宿1-7-3<br />TEL・FAX：
+                      03-1234-5678
+                    </p>
+                  </div>
+                  <div class="hours">
+                    <h3>営業時間</h3>
+                    <dl class="uline">
+                      <div>
+                        <dt>平日</dt>
+                        <dd class="font-mix">10:00<i>〜</i>19:00</dd>
+                      </div>
+                      <div>
+                        <dt>日</dt>
+                        <dd class="font-mix">10:00<i>〜</i>18:00</dd>
+                      </div>
+                    </dl>
+                    <small>※火曜日定休</small>
+                  </div>
+                </div>
+                <div class="map-area">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4047838747083!2d139.6947481152592!3d35.69165538019188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd6981dce11%3A0xee411b3fa3fc9f13!2zSEFM5Lic5Lqs!5e0!3m2!1szh-CN!2sjp!4v1610192797814!5m2!1szh-CN!2sjp" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- /#visual -->
+
+      <main>
+        <div id="main">
+          <div id="main-inner">
+            <div class="top-main">
+              <div class="logo">
+                <img src="img/logo.png" alt="" />
+              </div>
+              <div class="img"></div>
+            </div>
+
+            <div id="top-inner">
+              <section class="sec-copy">
+                <h2>
+                  <span class="font-min">幸せを感じるひとときを。</span>
+                </h2>
+                <p>
+                  当店で使用している野菜は、すべて旬の野菜です。<br />野菜・穀物は露地もの、有機栽培、無農薬もしくはできるだけ<br />低農薬で育てたものです。<br
+                    class="sp_view"
+                  />当店は全国各地、新鮮で安全な天然の食材（魚貝、海老、鶏他）<br />直接仕入れています。
+                </p>
+                <p>
+                  美味しい素材で手間ひまをかけて丁寧に作った、当店自慢の料理<br />ゆっくりとご賞味ください。
+                </p>
+              </section>
+
+              <section class="sec-category" id="sec-category">
+                <ul class="category-list">
+                  <li class="daily">
+                    <a href="" title="いつものコーヒー">
+                      <figure>
+                        <figcaption class="font-en-sr">
+                          Daily<br />Coffee
+                        </figcaption>
+                      </figure>
+                      <div>
+                        <i
+                          ><img
+                            src=""
+                        /></i>
+                        <h2><strong>いつものコーヒー</strong></h2>
+                        <p>
+                          ブレンドやマシンなどにこだわって、ここでしか飲めない特別なコーヒーご提供いたします。
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="teikibin">
+                    <a href="">
+                      <figure>
+                        <figcaption class="font-en-sr">
+                          Monthry<br />Fresh
+                        </figcaption>
+                      </figure>
+                      <div>
+                        <i
+                          ><img
+                            src=""
+                        /></i>
+                        <h2><strong>朝摘み·月１回のお茶</strong></h2>
+                        <p>毎月、一番茶のおいしさと健康をまるごと味わえる。</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="gift">
+                    <a href="" title="贈り物・ギフト">
+                      <figure>
+                        <figcaption class="font-en-sr">
+                          Original<br />Gift
+                        </figcaption>
+                      </figure>
+                      <div>
+                        <i
+                          ><img
+                            src=""
+                        /></i>
+                        <h2><strong>友達のギフト</strong></h2>
+                        <p>
+                          日頃お世話になっている方や、ご家族、ご友人等に
+                          あなたの気持ちとともに贈ってみませんか。
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="sec-lineup" id="sec-lineup">
+                <h2 class="title-center">
+                  <span class="font-en-sl">Recommend Lunch Menu</span>
+                  <b>ランチメニュー</b>
+                </h2>
+                <div class="lunch-list">
+                  <article>
+                    <a href="" title="">
+                      <figure>
+                        <img
+                          src="img/menu01.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <span class="inner">
+                        <h3>
+                          <em class="font-en-sr">本日の一汁三菜セット</em>
+                          <strong class="font-mix"></strong>
+                        </h3>
+                        <p>
+                          濃厚な味わいの国産大豆を使った豆腐料理を主菜に、副菜には極上の昆布出汁で煮た根菜、ミネラル豊富な海藻や青菜はさっぱりとした味つけで。
+                        </p>
+                        <div class="price font-en-sr mr pt">¥1,300~</div>
+                      </span>
+                    </a>
+                  </article>
+                  <article>
+                    <a href="" title="">
+                      <figure>
+                        <img
+                          src="img/menu02.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <span class="inner">
+                        <h3>
+                          <em class="font-en-sr">旬野菜のせいろ蒸し膳</em>
+                          <strong class="font-mix"></strong>
+                            [産地直送]</strong
+                          >
+                        </h3>
+                        <p>
+                          新鮮な季節野菜をせいろで皮ごと蒸しあげ、凝縮した旨味と栄養をまるごとお召し上がりいただけます。自家製のぽん酢と胡麻味噌たれで。玄米ご飯、味噌汁、ぬか漬け、副菜一品。
+                        </p>
+                        <div class="price font-en-sr">¥1,500</div>
+                      </span>
+                    </a>
+                  </article>
+                  <article>
+                    <a
+                      href=""
+                      title=""
+                    >
+                      <figure>
+                        <img
+                          src="img/menu03.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <span class="inner">
+                        <h3>
+                          <em class="font-en-sr">チーズケーキ</em>
+                          <div class="label font-en-sm">
+                            <span class="roast light">デザート</span>
+                          </div>
+                        </h3>
+                        <p>
+                          スッキリしたかるふわ食感のレアチーズケーキ。３種のチーズを使って毎日愛情込めて作ってます。
+                        </p>
+                        <div class="price font-en-sr">¥580</div>
+                      </span>
+                    </a>
+                  </article>
+                  <article>
+                    <a
+                      href=""
+                      title=""
+                    >
+                      <figure>
+                        <img
+                          src="img/menu04.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <span class="inner">
+                        <h3>
+                          <em class="font-en-sr">ガトーショコラ</em>
+                        </h3>  
+                        <div class="label font-en-sm">
+                          <span class="roast deep">冬限定</span>
+                        </div>
+                        <p>
+                          小麦粉を一切加えない「グルテンフリー」のガトーショコラで、常温で、冷蔵で、レンジで温めてと、温度状態によって「3つの食感」を味わえる、当店オリジナルのガトーショコラです。
+                        </p>
+                        <div class="price font-en-sr">¥600</div>
+                      </span>
+                    </a>
+                  </article>
+                </div>
+
+                <div class="bnr" id="btn-set">
+                  <a
+                    href=""
+                    title=""
+                  >
+                    <div><img src="img/1610193789(1).jpg" alt=""></div>
+                    
+                  </a>
+                </div>
+                <div class="btn-set">
+                  <div class="btn-bullet size-m btn-modal-common">
+                    <span>詳しい店舗のアクセスこちらへ</span>
+                  </div>
+                </div>
+              </section>
+
+              <section class="sec-blog" id="sec-blog">
+                <h2 class="title-center">
+                  <span class="font-en-sl">お知らせ</span>
+                </h2>
+                <div class="news-list">
+                  <article>
+                    <a
+                      href=""
+                      title=""
+                    >
+                      <figure>
+                        <img
+                          src="img/menu03.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <h2>2020年11月18日</h2>
+                      <div class="time-category-wrap">
+                        <div class="category">
+                          <ul class="post-categories">
+                            <li>
+                              <a
+                                href=""
+                                rel="category tag"
+                                >新規サイトオープン企画　Webサイトを見て特製ケーキをもらおう！</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div></a
+                    >
+                  </article>
+                  <article>
+                    <a
+                      href=""
+                      title=""
+                    >
+                      <figure>
+                        <img
+                          src="img/makalong.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <h2>2020年11月10日</h2>
+                      <div class="time-category-wrap">
+                        <div class="category">
+                          <ul class="post-categories">
+                            <li>
+                              <a
+                                href=""
+                                >新作マカロン登場！！</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div></a
+                    >
+                  </article>
+                  <article>
+                    <a
+                      href=""
+                      title=""
+                    >
+                      <figure>
+                        <img
+                          src="img/img5.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <h2>2020年11月3日</h2>
+                      <div class="time-category-wrap">
+                        <div class="category">
+                          <ul class="post-categories">
+                            <li>
+                              <a
+                                href=""
+                                rel="category tag"
+                                >お待たせ致しました！カフェ・ド・パリWebサイトをオープン致しました。</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                  </article>
+                  
+                </div>
+
+                <div class="calendar" id="calendar">
+                  <div
+                    class="schedule-calender"
+                    id="calendar"
+                    name="calendar"
+                  ></div>
+                  <p>
+                    ※ 臨時休業なども、こちらのカレンダーで確認いただけます。
+                  </p>
+                </div>
+       
+              </section>
+            </div>
+            <!-- /#top-inner -->
+          </div>
+          <!-- /#main-inner -->
+        </div>
+        <!-- /#main -->
+
+        <footer>
+          <div class="copy">
+            <em class="font-en-sr">More than just a coffee.</em>
+         
+          </div>
+          <div class="inner" id="inner">
+            <div class="inner-main">
+              <div class="logo">
+                <a href="" title=""
+                  ><img src="img/logo.png" alt=""
+                /></a>
+              </div>
+              <nav class="gnav">
+                <ul>
+                  <li class="">
+                    <a href="#sec-blog" title="お知らせ"
+                      >お知らせ</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#top-inner" title=""
+                      >私たちのこと</a
+                    >
+                  </li>
+                  <li class="">
+                    <a
+                      href="#sec-category"
+                      title=""
+                      >サービスのこと</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#sec-lineup" title=""
+                      >おすすめメニュー</a
+                    >
+                  </li>
+                  <li class="">
+                    <a
+                      href="#btn-set"
+                      title=""
+                      >店舗のこと</a
+                    >
+                  </li>
+                </ul>
+                <ul>
+                  <li class="">
+                    <a href="#sec-blog" title="お知らせ"
+                      >お知らせ</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#top-inner" title=""
+                      >私たちのこと</a
+                    >
+                  </li>
+                  <li class="">
+                    <a
+                      href="#sec-category"
+                      title=""
+                      >サービスのこと</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#sec-lineup" title=""
+                      >おすすめメニュー</a
+                    >
+                  </li>
+                  <li class="">
+                    <a
+                      href="#btn-set"
+                      title=""
+                      >店舗のこと</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="inner-sub">
+              <div class="sns">
+                <ul class="sns-list">
+                  <li>
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noopener"
+                      title="Facebook"
+                    >
+                      <img
+                        src="img/ico-facebook.svg"
+                        alt="Facebook"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noopener"
+                      title="Instagram"
+                    >
+                      <img
+                        src="img/ico-instagram.svg"
+                        alt="Instagram"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noopener"
+                      title="Twitter"
+                    >
+                      <img
+                        src="img/ico-twitter.svg"
+                        alt="Twitter"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="snav">
+                <ul>
+                  <li class="header-none snav-contact">
+                    <a href="" title=""
+                      >お問い合わせ</a
+                    >
+                  </li>
+                  <li class="snav-question">
+                    <a
+                      href=""
+                      title=""
+                      >よくある質問</a
+                    >
+                  </li>
+                  <li class="snav-shopping-guide">
+                    <a
+                      href=""
+                      title=""
+                      >ショッピングガイド</a
+                    >
+                  </li>
+                  <li class="header-none snav-privacy">
+                    <a
+                      href=""
+                      title=""
+                      >OnlineShop</a
+                    >
+                  </li>
+        
+                </ul>
+              </nav>
+              <small class="copyright"
+                >
+                <span class="font-en-sr">Copyright &copy; 2021 李福昌 All Rights Reserved.</span></small
+              >
+            </div>
+          </div>
+        </footer>
+
+        <div class="logo-mark">
+          <a href="" title=""
+            ><img src="img/logo.png" alt=""
+          /></a>
+        </div>
+      </main>
+    </div>
+  </body>
+ 
+  <script src="jquery.min.js"></script>
+  <script src="slick.min.js"></script>
+  <script src="velocity.js"></script>
+  <script src="moent.min.js"></script>
+  <script src="calendar.js"></script>
+  <script src="main.js"></script>
+</html>
